@@ -26,17 +26,18 @@ Une API doit être mise à disposition. Cette API doit être sécurisée. Par
 ## Les Pré-requis
 * Utiliser NestJS pour développer l'API
 * Utiliser une base de données relationnelle (ex: PostgreSQL/SQLite) pour stocker les sorties
-* Fournir des tests unitaires pour les fonctionnalités principales
 * Le temps est libre mais il est tout de même conseillé de passer moins de 4h sur le sujet (temps de setup d'environnement compris)
 
 ## Libertés
 * Vous êtes libre de partir “from scratch” ou d’un template d’init comme : https://github.com/CatsMiaow/nestjs-project-structure
-* Vous pouvez utiliser toutes les libraires qui vous semblent utiles
+* Vous pouvez utiliser toutes les libraires/outils qui vous semblent utiles
+* Nul besoin d'intégrer un système de gestion de migration une simple requête SQL ou une synchronisation ORM (ex: typeorm schema:sync) fera l'affaire.
 
 ## Bonus
 Toutes les fonctionnalités que vous aurez le temps d'ajouter seront bonnes à prendre. Soyez créatifs !!
 
 Voici quelques idées (liste non ordonnée) :
+* Fournir des tests unitaires pour les fonctionnalités principales
 * Ajouter toutes les validations que vous estimerez utile (ex: Une activité ne peut pas être dans le futur, le nom ne doit pas être vide, …)
 * Un utilisateur ne peut modifier/voir que ses propres activités
 * Gestion des utilisateurs via api (inscription - connexion - /me - …)
@@ -55,12 +56,11 @@ Reste donc à calculer les meilleurs temps pour chaque distance et chaque utilis
 * Qualité et lisibilité du code
 * Respect des bonnes pratiques de développement
 * Fonctionnalité et robustesse de l'API
-* Qualité des tests
 
 ## Déliverabilité
 * Commitez aussi souvent que possible et commentez vos commits pour détailler votre chemin de pensée
 * Votre application doit être facilement testable par nos équipes
-* Mettez à jour le README pour ajouter le temps passé et tout ce que vous jugerez nécessaire de nous faire savoir
+* Mettez à jour le README pour ajouter ce que vous jugerez nécessaire de nous faire savoir
 * Envoyez le lien avec le projet à thomas.glachant@xplortechnologies.com
 
 
