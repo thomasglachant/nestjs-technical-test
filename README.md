@@ -58,6 +58,7 @@ Reste donc à calculer les meilleurs temps pour chaque distance et chaque utilis
 * Fonctionnalité et robustesse de l'API
 
 ## Déliverabilité
+* Créez un nouveau repository github contenant votre code et partagez le à `thomasglachant` et `CorentinFackeure`
 * Commitez aussi souvent que possible et commentez vos commits pour détailler votre chemin de pensée
 * Votre application doit être facilement testable par nos équipes
 * Mettez à jour le README pour ajouter ce que vous jugerez nécessaire de nous faire savoir
